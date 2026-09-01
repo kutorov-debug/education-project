@@ -1,0 +1,33 @@
+{
+  "name": "moex-futures-education",
+  "version": "0.1.0",
+  "description": "Read-only official MOEX ISS data for futures education and paper-trading exercises.",
+  "author": {
+    "name": "Education project"
+  },
+  "homepage": "https://www.moex.com/a2193",
+  "keywords": [
+    "education",
+    "futures",
+    "moex",
+    "market-data",
+    "read-only"
+  ],
+  "interface": {
+    "displayName": "MOEX Futures — обучение",
+    "shortDescription": "Официальные данные MOEX ISS без торговых операций.",
+    "longDescription": "Безопасный учебный доступ только для чтения к карточкам, котировкам и свечам фьючерсов Московской биржи. Плагин не подключается к брокеру и не умеет выставлять заявки.",
+    "developerName": "Проект «Образование»",
+    "category": "Education",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Найди активный фьючерс MOEX и объясни его параметры.",
+      "Проверь расчёт задачи по данным контракта MOEX.",
+      "Покажи учебный снимок рынка без торговых действий."
+    ],
+    "brandColor": "#0B5CAB"
+  },
+  "mcpServers": "./.mcp.json"
+}

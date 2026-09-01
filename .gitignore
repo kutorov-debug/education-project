@@ -1,0 +1,14 @@
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.py[cod]
+node_modules/
+.venv/
+
+# Синхронизируемые извне или потенциально лицензированные материалы.
+sources/
+
+# Производные файлы визуальной проверки; итоговая книга остаётся в Git.
+outputs/**/*.inspect.ndjson
+outputs/**/preview-*.png
+

@@ -1,0 +1,20 @@
+{
+  "name": "education-project",
+  "interface": {
+    "displayName": "Education Project"
+  },
+  "plugins": [
+    {
+      "name": "moex-futures-education",
+      "source": {
+        "source": "local",
+        "path": "./plugins/moex-futures-education"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Education"
+    }
+  ]
+}

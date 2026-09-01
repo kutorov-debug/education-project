@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "moex_futures_education": {
+      "command": "python3",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/moex_mcp.py"
+      ]
+    }
+  }
+}
